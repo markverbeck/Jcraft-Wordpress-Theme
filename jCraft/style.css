@@ -1,0 +1,1060 @@
+/*
+Theme Name: J-Craft Theme
+Author: Mark Verbeck
+Author URI:
+Description: Theme designed for J-Craft handcrafted products.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, white, light, one-column, two-columns, left-sidebar, fluid-layout, responsive-layout, custom-menu, featured-images
+
+*/
+
+
+
+
+/* ---------------Site Logo------------------- */
+.custom-logo{
+  width: 120px;
+  height: 120px;
+}
+/*----------------- Navbar --------------------*/
+
+#nav_name{
+  display: inline-block;
+  padding-left: .4em;
+  font-family: 'Sigmar One', cursive;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  letter-spacing: .8px;
+}
+
+header{
+  margin-top: 1em;
+}
+
+nav{
+  border: solid #704132 4px;
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border-radius: .7em;
+  box-shadow: 5px 9px 5px #1b1e21;
+
+}
+
+
+
+ .nav-link {
+  color: white !important;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 1.4em;
+  font-family: 'Sigmar One', cursive;
+
+}
+
+
+#nav_div {
+  width: 80%;
+  margin: auto;
+}
+
+#navbarNav {
+  margin-right: 1em;
+}
+
+#nav_image {
+  margin-left: 1em;
+}
+
+.nav-item {
+  letter-spacing: .8px;
+
+}
+
+.navbar-toggler {
+  background-color: #e7d6c2 !important;
+}
+
+.dropdown-menu {
+  border: solid #704132 4px;
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  border: solid #704132 4px !important;
+  box-shadow: 5px 9px 5px #1b1e21;
+
+
+}
+
+
+
+.dropdown-item {
+  color: white !important;
+  animation-name: dropdown_link_off;
+  animation-duration: .3s;
+
+}
+
+.dropdown-item:hover{
+  background: none !important;
+
+}
+
+.wpsps_compact_cart{
+  font-family: helvetica;
+  background-color: white;
+  border: 4px solid black;
+  max-width: 290px;
+  min-width: 127px;
+  padding: 3px 14px 3px 0px;
+  /* margin-left: 1em; */
+}
+
+.cart_link:hover {
+  text-decoration: none;
+}
+
+
+/* body */
+
+#body{
+  background: #e7d6c2;
+
+}
+
+p a {
+  color: red;
+}
+.body_text a {
+  color: red;
+
+}
+
+/* homepage body */
+#homepage_body{
+  width: 70%;
+  margin: 5em auto 0 auto;
+}
+
+.title_icon{
+  font-size: 3em;
+  margin-top: .2em;
+  margin-bottom: .2em;
+  color: #704132;
+}
+
+.bottom_title {
+  font-family: 'Sigmar One', cursive;
+  color: #704132;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  font-size: 1.4em;
+  margin-top: -.6em;
+}
+
+.top_title {
+  font-family: 'Gloria Hallelujah', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: white;
+
+}
+
+.title_column {
+  border-bottom: dashed #704132;
+}
+
+.body_info_pic {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: solid black 3px;
+
+}
+
+.body_info_div {
+  border: solid #704132 4px;
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border-radius: .7em;
+  box-shadow: 5px 9px 5px #1b1e21;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+
+}
+ .body_text {
+  background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg');
+  margin-bottom: 1em;
+  padding: .7em .7em .1em .7em;
+  border: solid black 3px;
+  color: #704132;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  font-family: 'Roboto', sans-serif;
+}
+
+ /*-----About Page Body--------*/
+ .pic_quote_column {
+   border: solid #704132 4px;
+   background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+   border-radius: .7em;
+   box-shadow: 5px 9px 5px #1b1e21;
+   padding: 1em;
+ }
+
+ .about_quote_col {
+ margin: auto;
+ background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg');
+ border: solid black 3px;
+ padding: 1em;
+ border-radius: .7em;
+ font-family: 'Sigmar One', cursive;
+ color: #704132;
+ text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+
+ }
+
+ .inner_row {
+   width: 100%;
+   margin-left: auto !important;
+   margin-right: auto !important;
+ }
+
+ .about_image {
+   border-radius: 11em;
+   border: solid black 4px;
+ }
+
+ .about_bottom {
+   font-family: 'Gloria Hallelujah', cursive;
+   line-height: 2rem;
+   font-size: .8em;
+ }
+ .top_about {
+   line-height: 2.4rem;
+ }
+
+ .bio_row {
+   width: 70%;
+   margin: 5em auto 2em auto;
+   margin-left: auto !important;
+   margin-right: auto !important;
+ }
+
+ .bio_col {
+   border: solid #704132 4px;
+   background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+   border-radius: .7em;
+   box-shadow: 5px 9px 5px #1b1e21;
+   padding: 1em;
+   margin-bottom: 2em;
+ }
+
+ .bio {
+   background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg');
+   border: solid black 3px;
+   padding: 1em;
+   border-radius: .7em;
+   font-family: 'Roboto', sans-serif;
+   color: #704132;
+   text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+   line-height: 1.7em;
+ }
+
+
+
+ /* Shop Page */
+.shop_heading_row {
+  width: 78%;
+  margin: 5em auto 0 auto !important;
+}
+
+.shop_row {
+  width: 78%;
+  margin: 5em auto 5em  !important;
+}
+
+
+.shop_head {
+  font-family: 'Sigmar One', cursive;
+  color: #704132;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  margin-bottom: 1em;
+  background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg');
+  border: solid black 3px;
+  width: 51%;
+  margin: auto;
+  padding: 1em;
+  border-radius: 4em;
+  box-shadow: 0px 3px 9px #1b1e21;
+
+}
+
+.module-heading {
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: white;
+  text-decoration: underline;
+  line-height: 1.3em;
+
+}
+
+.feature-heading {
+  font-family: 'Sigmar One', cursive;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-decoration: underline;
+  margin-top: .5em;
+  line-height: 1.3em;
+
+}
+
+.prod_cat_list li a {
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: white;
+  list-style: none;
+
+}
+
+.prod_cat_list li a:hover {
+  text-decoration: none;
+}
+
+.prod_cat_list{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.prod_cat_list ul li::before {content: "•"; color: white;
+  display: inline-block; width: 1em;
+  margin-left: -3.4em;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+.prod_cat_list li {
+  line-height: 2em;
+}
+
+.category_div {
+  border: solid #704132 4px;
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border-radius: .7em;
+  box-shadow: 5px 9px 5px #1b1e21;
+  padding: 1em;
+
+
+}
+
+.featured_info {
+  background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg');
+  border: solid black 3px;
+  padding: 1em;
+  box-shadow: 0px 3px 9px #1b1e21;
+  margin-top: 1em;
+
+}
+
+.featured_info p {
+  font-family: 'Roboto', sans-serif;
+  color: #704132;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  line-height: 1.3em;
+}
+
+
+.feature_text_box {
+  background: #e7d6c2;
+  padding: 1em;
+  border-right: solid #704132 3px;
+  border-left: solid #704132 3px;
+  border-bottom: solid #704132 3px;
+  border-top: solid #704132 3px;
+  width: 82.6%;
+  margin: 1em auto 1em auto;
+}
+
+.featured_info a {
+  color: #3dff7d;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.featured_info a h4 {
+  font-size: 1.2em;
+}
+
+.featured_image {
+  margin-top: 1em;
+  border-right: solid #704132 3px;
+  border-left: solid #704132 3px;
+  border-bottom: solid #704132 3px;
+  border-top: solid #704132 3px;
+}
+
+.feature_name {
+  font-family: 'Sigmar One', cursive;
+  color: #704132;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  text-decoration: underline;
+}
+
+
+
+#old_price {
+  text-decoration: line-through;
+  margin-right: .6em;
+  color: #704132;
+  font-size: 1.2em;
+}
+
+#add_to_cart {
+  margin-right: 2em;
+  display: inline-block;
+  margin-top: 1em;
+
+
+}
+
+@keyframes add_cart_button {
+    from {background-color: #28a745;}
+    to {background-color: #1e7d31;}
+}
+
+@keyframes add_to_cart_button {
+    from {background-color: #1e7d31;}
+    to {background-color: #28a745;}
+}
+.wspsc_add_cart_submit {
+    background-color: #28a745;
+    color: white;
+    border: #28a745;
+    animation-name: add_to_cart_button;
+    animation-duration: .3s;
+    border: solid black 3px;
+    border-radius: .7em;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    vertical-align: middle;
+    font-family: sans-serif;
+}
+
+.wspsc_add_cart_submit:hover {
+  background-color: #1e7d31;
+  animation-name: add_cart_button;
+  animation-duration: .3s;
+  cursor: pointer;
+}
+
+.shop_btn {
+  border: solid black 3px !important;
+  border-radius: .7em !important;
+
+}
+
+.new_product_div{
+  border: solid #704132 4px;
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border-radius: .7em;
+  box-shadow: 5px 9px 5px #1b1e21;
+  padding: 1em;
+}
+
+.new_product_title {
+  color: white;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-decoration: underline;
+  margin-bottom: 1em;
+}
+
+.new_product {
+  color: #704132;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg');
+  border: solid black 3px;
+  padding: 1em;
+  margin-top: .5em;
+}
+
+.product_name{
+  text-decoration: underline;
+}
+.new_product_button {
+  font-family:sans-serif;
+}
+
+#new_product_price {
+  color: white;
+  margin-top: 1em;
+  text-decoration: none;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+.inside_col {
+  margin-top: 1em;
+}
+
+.new_product_image {
+  margin-top: 1em;
+  border: solid black 3px;
+  border-radius: .7em;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+
+
+
+/* Single Product Page */
+
+.single-product-row {
+  width: 78%;
+  margin: 5em auto 0 auto !important;
+}
+
+.modal-btn {
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border-radius: .7em;
+  box-shadow: 5px 9px 5px #1b1e21;
+  padding: 1em;
+  border: solid #704132 4px !important;
+
+}
+
+.modal-btn img {
+  border: solid black 4px;
+
+}
+
+.modal-title {
+  font-family: 'Sigmar One', cursive;
+  color: #704132;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  margin-bottom: 1em;
+  background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg');
+  border: solid black 3px;
+  border-radius: 4em;
+  box-shadow: 0px 3px 9px #1b1e21;
+  padding: .5em;
+}
+
+.product_description {
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border-radius: .7em;
+  box-shadow: 5px 9px 5px #1b1e21;
+  padding: 1em;
+  border: solid #704132 4px;
+  margin-bottom: 3em;
+}
+
+.product_description_div {
+  background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg');
+  border: solid black 3px;
+  border-radius: .7em;
+  box-shadow: 0px 3px 9px #1b1e21;
+  padding: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #704132;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  line-height: 1.8em;
+  margin-bottom: .5em;
+}
+
+.product_description_div h4 {
+  color: white;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  border-top: dashed #704132 4px;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+/* Contact Form */
+
+.contact_row{
+  width: 78%;
+  margin: 5em auto 5em auto !important;
+}
+
+.contact_col {
+  border: solid #704132 4px;
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border-radius: .7em;
+  box-shadow: 5px 9px 5px #1b1e21;
+  padding: 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.nf-element {
+  border: solid black 4px;
+
+}
+
+.nf-field-label {
+  color: white;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 1.5em;
+}
+
+.wpforms-field-label {
+  color: white;
+  font-family: 'Sigmar One', cursive;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black !important;
+  font-size: 1.5em !important;
+}
+
+.wpforms-field-medium {
+  border: solid black 4px !important;
+}
+
+.form_div {
+  margin-right: 0px !important;
+}
+
+.side_pic_col {
+  margin: auto;
+}
+
+.side_pic {
+  border: solid black 4px;
+}
+
+#nf-field-14 {
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #22ad3e;
+  color: white;
+  border-radius: .7em;
+  animation-name: add_to_cart_button;
+  animation-duration: .3s;
+}
+
+#nf-field-14:hover {
+  background-color: #1e7d31;
+  animation-name: add_cart_button;
+  animation-duration: .3s;
+  cursor: pointer;
+}
+
+.wpforms-submit {
+  padding-top: .4em !important;
+  padding-bottom: .4em !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  background-color: #22ad3e !important;
+  color: white !important;
+  border-radius: .7em !important;
+  border: solid black 2px !important;
+  animation-name: add_to_cart_button;
+  animation-duration: .3s;
+}
+
+.wpforms-submit:hover {
+  background-color: #1e7d31 !important;
+  animation-name: add_cart_button;
+  animation-duration: .3s;
+  cursor: pointer;
+}
+
+.response_message {
+  font-family: 'Sigmar One', cursive;
+  color: #704132;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg');
+  border: solid black 3px;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 1em;
+  border-radius: 4em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.nf-form-fields-required {
+  display: none;
+}
+
+.wpforms-confirmation-scroll {
+  font-family: 'Sigmar One', cursive;
+  color: #704132 !important;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  background-image: url('/J-Craft/wp-content/uploads/2018/09/paper-background.jpg') !important;
+  border: solid black 3px !important;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 1em !important;
+  border-radius: 4em;
+  margin-top: 5em !important;
+  margin-bottom: 5em !important;
+}
+
+/* Shopping Cart Page */
+
+.cart_col {
+  border: solid #704132 4px;
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border-radius: .7em;
+  box-shadow: 5px 9px 5px #1b1e21;
+  padding: 1em;
+  margin: auto;
+  font-family: 'Sigmar One', cursive;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+.wp_cart_checkout_button{
+  margin-top: 2em !important;
+}
+
+.shopping_cart h2 {
+  margin-bottom: 1em;
+}
+
+.wspsc_cart_item_name_td {
+  text-align: left;
+}
+
+/* Search Results Page */
+
+.no_results {
+  font-family: 'Sigmar One', cursive;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+/* Carousel */
+
+.carousel-inner {
+
+  margin: 8em auto 0 auto;
+  width:70% !important ;
+  overflow:visible !important;
+}
+
+.carousel_image_div {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.carousel_image {
+  width: 100%;
+  border-right: solid #704132 4px;
+}
+
+.carousel_text {
+
+  font-family: 'Sigmar One', cursive;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+.carousel_text h1 {
+  font-size: 2.2em;
+  text-align: center;
+}
+
+.carousel-row {
+  align-items: center;
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border: solid #704132 4px;
+}
+
+/* Footer */
+
+#footer_row {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid #704132 4px;
+  background-image: url("/J-Craft/wp-content/uploads/2018/09/wood_background.jpg");
+  border-radius: .7em;
+  box-shadow: 5px 9px 5px #1b1e21;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  align-items: center;
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+
+
+
+#menu-footer-menu li a {
+	display: inline;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Sigmar One', cursive;
+	font-size: 24px;
+	color: white;
+	padding-left: 17px;
+
+
+}
+
+#menu-footer-menu li a:hover {
+  text-decoration: none;
+}
+
+#menu-footer-menu {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.TM {
+  font-family: 'Gloria Hallelujah', cursive;
+	font-size: 17px;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-bottom: 0;
+}
+
+.social_footer{
+  font-size: 1.6em;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding: .5em;
+}
+
+/* Media Queries */
+
+@media (max-width: 1120px) {
+ #nav_name{
+   display: none;
+
+ }
+
+ .bottom_title {
+   font-size: 1em;
+ }
+
+ .top_title {
+   font-size: .7em;
+ }
+
+ .title_icon {
+   font-size: 2.4em;
+ }
+
+ /* About Page */
+ .top_about {
+   font-size: 1.4em;
+ }
+
+ .inner_row {
+   align-items: center;
+ }
+
+ /* Shop Page */
+
+ .shop_head {
+   width: 68%;
+ }
+
+ #add_to_cart {
+   margin-right: 0;
+ }
+
+ .module-heading {
+   font-size: 25px;
+ }
+
+ .feature-heading {
+   font-size: 21px;
+ }
+
+ .feature_text_box {
+   width: 99.6%;
+ }
+
+ .feature_name {
+   font-size: 16px;
+ }
+
+ .feature_price {
+   display: contents;
+ }
+
+ .feature_text_box p {
+   font-size: 13px;
+ }
+
+#searchsubmit {
+  background: #f1f1f1;
+  margin-top: 1em;
+}
+
+}
+
+@media (max-width: 991px) {
+  #nav_name{
+    display: inline-block;
+
+  }
+
+  .footer_image {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* About Page */
+  .about_image {
+    margin-bottom: 1em;
+  }
+
+  /* Shop Page */
+
+  .shop_head {
+    width: 84%;
+  }
+
+  #add_to_cart {
+    margin-right: 1em;
+  }
+
+  .module-heading {
+    font-size: 2.3em;
+  }
+
+  .feature-heading {
+    font-size: 2.3em;
+  }
+
+  .feature_text_box {
+    width: 63.6%;
+    border-top: solid #704132 3px;
+    margin-top: 1em;
+  }
+
+  .feature_name {
+    font-size: 2em;
+  }
+
+  .feature_price {
+    display: contents;
+  }
+
+  .feature_text_box p {
+    font-size: 1.3em;
+  }
+
+  .new_product{
+    margin-top: 1em;
+  }
+
+  .new_product_div {
+    margin-top: 2em;
+  }
+
+  .prod_cat_list li a {
+    font-size: 1.5em;
+  }
+
+  /* Single Product Page */
+
+  .modal_div_bottom {
+    margin-top: 2em;
+  }
+
+  /* contact page */
+
+  .side_pic{
+    display: none;
+  }
+
+  /* Header */
+  .wpsps_compact_cart{
+    margin: auto;
+    text-align: center;
+
+  }
+
+  .dropdown-item {
+    text-align: center !important;
+  }
+
+  #navbarNav {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 465px) {
+  #nav_name{
+    display: none;
+  }
+
+  #menu-footer-menu li a  {
+    font-size: 14px;
+    padding-top: .5em;
+  }
+
+  .TM {
+    font-size: 11px;
+    padding-bottom: .5em;
+  }
+
+  .carousel_text h1 {
+    padding-top: .5em;
+  }
+
+  .carousel_image {
+    border-right: none;
+  }
+
+/* About Page */
+  .top_about {
+    font-size: 1.4em;
+  }
+
+  .bio {
+    font-size: .8em;
+  }
+
+  /* Shop Page */
+
+  .shop_heading_row {
+    width: 100%;
+  }
+
+  .shop_head h1{
+    margin-bottom: 0;
+  }
+
+  .feature_text_box {
+    width: 83.6%;
+  }
+
+  #add_to_cart {
+    margin-right: 0;
+  }
+
+  .shop_head {
+    width: 100%;
+  }
+
+  /* Single Product Page */
+
+  .modal_div_sm_screen{
+    margin-top: 2em;
+  }
+
+  .fas {
+    display: none;
+  }
+
+  /* Contact */
+.nf-response-msg {
+  font-size: 1em;
+}
+
+}
